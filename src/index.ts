@@ -1,11 +1,11 @@
-import readline from "readline"; 
+import * as readline from "readline";
 
 const rd1 = readline.createInterface({
-	input: process.stdin, 
+	input: process.stdin,
 	output: process.stdout
-}); 
+});
 
-rd1.question("whats your name ?" , (answer) => {
-	console.log("hello " answer); 
-	rd1.close(); 
+rd1.question("whats your name ?  ", (answer) => {
+	console.log("hello " + answer);
+	rd1.close();
 }); 
