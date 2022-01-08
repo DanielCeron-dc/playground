@@ -1,11 +1,4 @@
-import * as readline from "readline";
+import { readFromConsole } from "tools/readFromConsole"
 
-const rd1 = readline.createInterface({
-	input: process.stdin,
-	output: process.stdout
-});
-
-rd1.question("whats your name ?  ", (answer) => {
-	console.log("hello " + answer);
-	rd1.close();
-}); 
+const response: string = readFromConsole("What is your name?");
+console.log("Hello " + response);
