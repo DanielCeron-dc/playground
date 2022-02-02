@@ -40,7 +40,10 @@
         <div class = "withImage">
             <h2>hola</h2>
         <div>
-        <p>
+        <p style = "background: url(https://www.transparenttextures.com/patterns/3px-tile.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;">
             This is a playground to practice typescript :p
         </p>
     </body>
